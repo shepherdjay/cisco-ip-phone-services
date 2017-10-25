@@ -6,6 +6,7 @@ python:
     - "3.6"
     - "nightly"
 install:
+  - pip insatll -r requirements.txt
   - pip install -e .
 script:
   - py.test --cov
