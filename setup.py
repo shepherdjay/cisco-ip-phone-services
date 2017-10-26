@@ -34,6 +34,7 @@ setup(
                  "services."),
     zip_safe=False,
     long_description=readme,
+    install_requires=['six'],
     license=license,
     classifiers=[
         "Programming Language :: Python :: 2.7",
